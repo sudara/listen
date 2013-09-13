@@ -1,4 +1,4 @@
-module Listen
+module GuardListen
   module Adapters
 
     # Listener implementation for Linux `inotify`.

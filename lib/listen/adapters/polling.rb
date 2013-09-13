@@ -1,4 +1,4 @@
-module Listen
+module GuardListen
   module Adapters
 
     DEFAULT_POLLING_LATENCY = 1.0

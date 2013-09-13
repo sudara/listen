@@ -1,6 +1,6 @@
 require 'pathname'
 
-module Listen
+module GuardListen
   class Listener
     attr_reader :directories, :directories_records, :block, :adapter, :adapter_options, :use_relative_paths
 

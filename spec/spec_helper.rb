@@ -2,7 +2,7 @@ require 'rubygems'
 require 'coveralls'
 Coveralls.wear!
 
-require 'listen'
+require 'guard_listen'
 
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each { |f| require f }
 

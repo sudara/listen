@@ -3,7 +3,7 @@ require 'thread'
 require 'set'
 require 'fileutils'
 
-module Listen
+module GuardListen
   class Adapter
     attr_accessor :directories, :callback, :stopped, :paused,
                   :mutex, :changed_directories, :turnstile, :latency,

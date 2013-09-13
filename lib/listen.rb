@@ -1,13 +1,13 @@
-require 'listen/turnstile'
-require 'listen/listener'
-require 'listen/directory_record'
-require 'listen/adapter'
+require 'guard_listen/turnstile'
+require 'guard_listen/listener'
+require 'guard_listen/directory_record'
+require 'guard_listen/adapter'
 
-module Listen
+module GuardListen
 
   module Adapters
     Adapter::ADAPTERS.each do |adapter|
-      require "listen/adapters/#{adapter.downcase}"
+      require "guard_listen/adapters/#{adapter.downcase}"
     end
   end
 

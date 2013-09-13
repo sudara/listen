@@ -1,4 +1,4 @@
-module Listen
+module GuardListen
   module Adapters
 
     # Adapter implementation for Mac OS X `FSEvents`.

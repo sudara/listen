@@ -1,7 +1,7 @@
 require 'set'
 require 'rubygems'
 
-module Listen
+module GuardListen
   module Adapters
 
     # Adapter implementation for Windows `wdm`.

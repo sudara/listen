@@ -2,7 +2,7 @@ require 'set'
 require 'find'
 require 'digest/sha1'
 
-module Listen
+module GuardListen
 
   # The directory record stores information about
   # a directory and keeps track of changes to

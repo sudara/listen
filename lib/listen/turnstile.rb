@@ -1,4 +1,4 @@
-module Listen
+module GuardListen
 
   # Allows two threads to wait on eachother.
   #
