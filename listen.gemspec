@@ -3,7 +3,7 @@ $:.push File.expand_path('../lib', __FILE__)
 require 'guard_listen/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'listen'
+  s.name        = 'guard_listen'
   s.version     = GuardListen::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Thibaud Guillaume-Gentil', 'Maher Sallam']
